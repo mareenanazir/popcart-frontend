@@ -21,7 +21,7 @@ import {
 } from "./styled"
 
 export const App = () => {
-  const seoImage = "https://www.google.com/search?q=popcart&rlz=1C5CHFA_enPK885PK885&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiC2vrZ4u3qAhUN_BQKHaBnA44Q_AUoAXoECBMQAw&biw=1440&bih=686#imgrc=ICuSVeO0Gy1L5M"
+  const seoImage = `${SHARE_WITH_FRIEND_LINK}elchim-dryer.png`
   return (
     <Fragment>
       <Seo
