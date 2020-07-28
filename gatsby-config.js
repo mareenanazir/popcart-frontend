@@ -13,6 +13,7 @@ module.exports = {
     image: "popcart-index.jpg",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-styled-components`,
     },
