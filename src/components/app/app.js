@@ -1,14 +1,14 @@
 import React, { Fragment } from "react"
 
+import { ExternalLink } from "react-external-link";
+
 import { Card } from "../card"
 import { Image } from "../image"
 import { Label } from "../label"
-import { ExternalLink } from "react-external-link";
 import { Seo } from "../seo"
-
-import { CopyToClipboard } from "react-copy-to-clipboard"
 import { CARDS, SEO_INFO, SHARE_WITH_FRIEND_LINK } from "../../utils/values"
 import { Button } from "../button"
+import { CopyToClipboard } from "../copy-to-clipboard"
 import {
   PriceWrapper,
   BrandWrapper,
@@ -19,6 +19,8 @@ import {
   ShareWithFriendWrapper,
   RetailerWrapper,
 } from "./styled"
+
+import 'react-toastify/dist/ReactToastify.css';
 
 export const App = () => {
   const seoImage = `${SHARE_WITH_FRIEND_LINK}elchim-dryer.png`
@@ -49,8 +51,8 @@ export const App = () => {
               <RetailerWrapper>
                 <Label> {card.RETAILER}</Label>
               </RetailerWrapper>
-              <Button className="shop-now">
-                <ExternalLink href={card.SHOP_NOW_LINK} className="shop-now">
+              <Button>
+                <ExternalLink href={card.SHOP_NOW_LINK}>
                   Shop Now
                 </ExternalLink>
               </Button>
@@ -59,9 +61,7 @@ export const App = () => {
         ))}
       </ProductsWrapper>
       <ShareWithFriendWrapper>
-        <CopyToClipboard text={SHARE_WITH_FRIEND_LINK}>
-          <Button className="shop-now">Share with friend</Button>
-        </CopyToClipboard>
+        <CopyToClipboard text={SHARE_WITH_FRIEND_LINK}/>
       </ShareWithFriendWrapper>
     </Fragment>
   )

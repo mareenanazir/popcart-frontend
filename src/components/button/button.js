@@ -1,10 +1,10 @@
-import styled from "styled-components"
-import PropTypes from "prop-types"
-import { Button as rButton } from "rebass"
+import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import { Button as rButton } from 'rebass';
 
 export const Button = styled(rButton)`
   &&& {
-    background: #c71585;
+    background: #C71585;
     border-radius: 7px;
     cursor: pointer;
     font-size: 16px;
@@ -21,9 +21,9 @@ export const Button = styled(rButton)`
       cursor: not-allowed;
     }
   }
-`
+`;
 
 Button.propTypes = {
   backgroundColor: PropTypes.string,
   variant: PropTypes.string,
-}
+};

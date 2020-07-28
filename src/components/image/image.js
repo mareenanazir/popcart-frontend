@@ -1,14 +1,15 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
+
 import { Image as Img } from "rebass"
 import { Styled } from "./styled"
 
 export const Image = ({ src, alt }) => {
-  const [count, setCount] = useState(0)
+  const [error, setError] = useState(0)
   return (
     <Styled>
-      {src && !count ? (
-        <Img src={src} onError={() => setCount(1)} />
+      {src && !error ? (
+        <Img src={src} onError={() => setError(1)} />
       ) : (
         <span>{alt && alt[0]}</span>
       )}

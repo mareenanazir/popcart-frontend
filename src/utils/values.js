@@ -37,4 +37,4 @@ export const SEO_INFO = {
 
 export const CARDS = [CARD_ONE, CARD_TWO, CARD_THREE]
 
-
+export const COPIED_TO_CLIPBOARD = "Copied To Clipboard!"
