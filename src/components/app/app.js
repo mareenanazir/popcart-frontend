@@ -23,7 +23,7 @@ import {
 import 'react-toastify/dist/ReactToastify.css';
 
 export const App = () => {
-  const seoImage = `${SHARE_WITH_FRIEND_LINK}elchim-dryer.png`
+  const seoImage = ``
   return (
     <Fragment>
       <Seo
