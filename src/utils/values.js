@@ -27,6 +27,8 @@ export const CARD_THREE = {
     SHOP_NOW_LINK: "https://www.walmart.com/ip/seort/993560563"
 };
 
+export const SHARE_WITH_FRIEND_LINK = " https://5d0ffb631198.ngrok.io"
+
 export const SEO_INFO = {
     TITLE: "Elchim 3900 Healthy Ionic Hair Dryer, Yellow Daisy",
     DESCRIPTION: "Popcart is a free browser extension that automatically compares prices and saves money on everything you shop for online.",
@@ -35,4 +37,4 @@ export const SEO_INFO = {
 
 export const CARDS = [CARD_ONE, CARD_TWO, CARD_THREE]
 
-export const SHARE_WITH_FRIEND_LINK = " https://5d0ffb631198.ngrok.io"
+
