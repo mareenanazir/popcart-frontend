@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Popcart",
+    description:
+      "Popcart is your perfect online shopping price comparison tool. Learn how to be a better shopper with our online tips!",
+    url: "https://www.popcart.com",
+    image: "/images/popcart-index.jpg",
+  },
+  // plugins: [`gatsby-plugin-react-helmet`,],
+
 }
