@@ -12,6 +12,11 @@ module.exports = {
     url: "https://www.popcart.com",
     image: "popcart-index.jpg",
   },
-  plugins: [`gatsby-plugin-react-helmet`,],
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+  ],
 
 }
