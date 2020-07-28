@@ -27,7 +27,7 @@ export const CARD_THREE = {
     SHOP_NOW_LINK: "https://www.walmart.com/ip/seort/993560563"
 };
 
-export const SHARE_WITH_FRIEND_LINK = " https://5d0ffb631198.ngrok.io"
+export const SHARE_WITH_FRIEND_LINK = "https://modest-meninsky-1b770a.netlify.app/"
 
 export const SEO_INFO = {
     TITLE: "Elchim 3900 Healthy Ionic Hair Dryer, Yellow Daisy",
