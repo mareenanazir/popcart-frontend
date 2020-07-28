@@ -9,7 +9,6 @@ import { COPIED_TO_CLIPBOARD } from "../../utils/values"
 
 export const CopyToClipboard = ({ text }) => {
   const [isCopied, setIsCopied] = useState(false)
-  console.log(text)
   return (
     <Fragment>
       <ReactCopyToClipboard text={text} onCopy={() => {setIsCopied(true); toast(COPIED_TO_CLIPBOARD)}}>
