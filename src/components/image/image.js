@@ -11,7 +11,7 @@ export const Image = ({ src, alt }) => {
       {src && !error ? (
         <Img src={src} onError={() => setError(1)} />
       ) : (
-        <span>{alt && alt[0]}</span>
+        <span>{alt}</span>
       )}
     </Styled>
   )

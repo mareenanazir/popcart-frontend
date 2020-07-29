@@ -20,5 +20,5 @@ export const CopyToClipboard = ({ text }) => {
 }
 
 CopyToClipboard.propTypes = {
-  text: PropTypes.string,
+  text: PropTypes.string.isRequired,
 }

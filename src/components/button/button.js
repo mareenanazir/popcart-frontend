@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import { Button as rButton } from 'rebass';
 
 export const Button = styled(rButton)`
@@ -22,8 +21,3 @@ export const Button = styled(rButton)`
     }
   }
 `;
-
-Button.propTypes = {
-  backgroundColor: PropTypes.string,
-  variant: PropTypes.string,
-};
