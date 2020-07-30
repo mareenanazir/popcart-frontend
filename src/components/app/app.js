@@ -32,7 +32,7 @@ export const App = () => {
         url={SEO_INFO.url}
         image={seoImage}
       />
-      <ProductsWrapper>
+      <ProductsWrapper id={"product-wrapper"}>
         {CARDS.map((card, index) => (
           <CardWrapper>
             <Card>
